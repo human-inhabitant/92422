@@ -1,0 +1,28 @@
+{
+  "name": "92422",
+  "version": "0.6.5",
+  "description": "Express in Action: Writing, building, and testing Node.js applications",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/human-inhabitant/92422.git"
+  },
+  "keywords": [
+    "MEAN",
+    "Express",
+    "Node",
+    "MongoDB"
+  ],
+  "author": "human-inhabitant",
+  "license": "copyleft-next-0.3.1",
+  "bugs": {
+    "url": "https://github.com/human-inhabitant/92422/issues"
+  },
+  "homepage": "https://github.com/human-inhabitant/92422#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
