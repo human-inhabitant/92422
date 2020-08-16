@@ -2,9 +2,9 @@
   "name": "92422",
   "version": "0.6.5",
   "description": "Express in Action: Writing, building, and testing Node.js applications",
-  "main": "index.js",
+  "main": "static-file/app.js",
   "scripts": {
-    "start": "node app"
+    "start": "nodemon static-file/app"
   },
   "repository": {
     "type": "git",
