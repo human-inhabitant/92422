@@ -4,7 +4,8 @@
   "description": "Express in Action: Writing, building, and testing Node.js applications",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app"
+    "start": "nodemon app",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,11 @@
     "morgan": "^1.10.0",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "mocha": "^8.1.1",
+    "supertest": "^4.0.2"
   }
 }
